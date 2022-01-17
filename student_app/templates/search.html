@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewsport" content="width=device-width,initial-scale=1.0">
+<title>Student Forms</title> 
+<link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+</head> 
+<body>    
+  <!-- <div class="row"> -->
+    <!-- <div class="container mt-5"> -->
+      <header>
+        <!-- Navbar -->
+        
+        
+        <!-- Navbar -->
+      
+        <!-- Jumbotron -->
+        <div class="p-5 text-center bg-light">
+          <h1 class="mb-3">Student Information</h1>
+          <!-- <h4 class="mb-3">Subheading</h4> -->
+          <a class="btn btn-primary" href="{% url 'studentform' %}" role="button">Create  Form</a>
+          <a class="btn btn-primary" href="{% url 'studentinformation' %}" role="button">Student Information</a>
+        </div>
+        <!-- Jumbotron -->
+      </header> 
+   
+   
+      
+<!-- </div>      -->
+
+
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/popper.js' %}"></script>  
+</body>
+
+
+
+</html>

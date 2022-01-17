@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewsport" content="width=device-width,initial-scale=1.0">
+<title>Student Forms</title> 
+<link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+</head> 
+<body>    
+  <!-- <div class="row"> -->
+    <!-- <div class="container mt-5"> -->
+    <h4 class="text-center alert alert-danger"> Student Information Table</h4>
+    <div >
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <!-- <th scope="col">Roll no</th>
+                <th scope="col">Roll no</th> -->
+                <th scope="col">Maths</th>
+                <th scope="col">Physics</th>
+                <th scope="col">Chemistry</th>
+                <th scope="col">Biology</th>
+                <th scope="col">Chemistry</th>
+              
+              </tr>
+            </thead>
+            <tbody>
+              
+              <tr>
+                <!-- <th scope="row">{{forms.Rollno}}</th>
+                <th scope="row">{{forms.Rollno}}</th> -->
+               <td>{{forms.Maths}}</a></td>
+                <td>{{forms.Physics}}</td>
+                <td>{{forms.Chemistry}}</td>
+                <td>{{forms.Biology}}</td>
+                <td>{{forms.English}}</td>
+                
+              </tr>
+              
+            </tbody>  
+
+</div>
+<!-- </div>      -->
+
+
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/popper.js' %}"></script>  
+</body>
+
+
+
+</html>
